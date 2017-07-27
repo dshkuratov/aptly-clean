@@ -1,0 +1,11 @@
+Source: aptly-clean
+Maintainer: Dmitry Shkuratov <dshkuratov@gmail.com>
+Section: contrib/python
+Priority: optional
+Build-Depends: python-setuptools, python-all, debhelper, dh-python
+X-Python-Version: >= 2.7
+
+Package: python-aptly-clean
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources, python-semantic-version, python-apt
+Description: clear old packages in repository aptly

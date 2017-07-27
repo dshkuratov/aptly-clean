@@ -1,0 +1,6 @@
+aptly-clean (0.0.1) xenial; urgency=low
+
+  * Initial release
+
+ -- Dmitry Shkuratov <dshkuratov@gmail.com>  Tue, 27 Jun 2017 15:34:42 +0300
+
